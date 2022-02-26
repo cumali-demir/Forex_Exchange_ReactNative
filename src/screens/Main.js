@@ -423,7 +423,6 @@ const styles = StyleSheet.create({
   root: {
     flex: 1,
     backgroundColor: Colors.white,
-    paddingBottom: 24,
   },
   header: {
     flex: 1,
@@ -435,6 +434,7 @@ const styles = StyleSheet.create({
     flex: 3,
     backgroundColor: Colors.white,
     paddingHorizontal: CONTAINER_PADDING,
+    paddingBottom: 24,
   },
   selectableContainer: {
     backgroundColor: Colors.white50,
