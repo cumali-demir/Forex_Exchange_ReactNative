@@ -320,7 +320,6 @@ const Main = ({navigation}) => {
       <StatusBar backgroundColor={Colors.lightBlue} barStyle="dark-content" />
     );
 
-  console.log('priceData', priceData);
   return (
     <LoadingWrapper loading={loading} isReady={isReady}>
       {renderStatusBar()}
