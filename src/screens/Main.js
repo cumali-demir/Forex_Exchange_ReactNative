@@ -158,7 +158,7 @@ const Main = ({navigation}) => {
   const getSymbols = exchange => {
     HttpClient.Get('forex/symbol', {exchange})
       .then(currenciesRes => {
-        const defaultCurrency = currenciesRes[101];
+        const defaultCurrency = currenciesRes[0];
         const {firstCurrencyImage, secondCurrencyImage} =
           manipulateCurrencyObject(defaultCurrency);
         setSelectedCurrency({
